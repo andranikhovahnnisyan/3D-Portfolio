@@ -5,7 +5,7 @@ padding: 0;
 
 .boss {
 width: 100%;
-height: 4000px;
+height: 5000px;
 border: 1px solid black; 
 background-color: black;   
 }
@@ -345,6 +345,26 @@ background-image: url(./photos/bg_skills.jpg);
 background-repeat: no-repeat;    
 background-size: cover;
 perspective: 1000px;
+}
+
+.skill_text_div_big {
+width: 50%;
+height: 100px;
+border-radius: 30px; 
+margin: 0 auto;
+padding-top: 20px;   
+}
+
+.skill_text_div_small {
+width: 40%;
+height: 100px;
+border-radius: 30px;
+margin: 0 auto;   
+}
+
+
+.skill_text {
+font-size: 50px;
 }
 
 .html_skill_div {
@@ -790,4 +810,72 @@ width: 52%;
 height: 15px;
 background-color: rgb(162, 89, 255);
 border-radius: 10px;
+}
+
+.about_me_div {
+width: 100%;
+height: 700px;
+background-color: blue; 
+border-radius: 40px;
+position: relative;   
+}
+
+.left_part {
+width: 43%;
+height: 700px;
+border-top-left-radius: 40px;
+border-bottom-left-radius: 40px;
+display: inline-block;
+padding-left: 90px;
+perspective: 900px;
+position: absolute;
+}
+
+.my_photo_div {
+width: 50%;
+height: 450px;
+border-radius: 30px;
+margin-top: 83px;
+transition: 0.4s;
+}
+
+.my_photo_div:hover {
+transform: matrix3d(0.52, 0, -0.3, 0, 0, 0.9, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)   
+}
+
+.my_photo {
+width: 100%;
+height: 450px; 
+border-radius: 30px;  
+}
+
+.right_part {
+width: 50%;
+height: 700px;
+border-top-right-radius: 40px;
+border-bottom-right-radius: 40px;
+display: inline-block;
+position: absolute;
+right: 0;
+}
+
+.about_me_big_text_div {
+width: 50%;
+height: 100px;
+border-radius: 30px;    
+}
+
+.who_am_i_text {
+font-size: 60px;    
+}
+
+.about_me_text_div {
+width: 80%;
+height: 450px;
+border-radius: 40px; 
+margin: 0 auto;
+}
+
+.about_me_text {
+font-size: 40px;    
 }
